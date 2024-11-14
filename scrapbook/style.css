@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+:root {
+  --caput-mortuum: #5c2b23ff;
+  --french-gray: #b1b9c1ff;
+  --rich-black: #151d27ff;
+  --alabaster: #e7e1d6ff;
+  --night: #0f1215ff;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--night);
+
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* .test {
+  width: 500px;
+  height: 400px;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://download.unsplash.com/photo-1428604467652-115d9d71a7f1');
+}
+
+.test p {
+  font-size: 23px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  position: absolute;
+  top: 200px;
+  left: 22px;
+} */
+
+/*hero container*/
+.hero-container {
+  background-color: #b5c0d0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://i.pinimg.com/564x/b1/bb/4d/b1bb4dd00f342398bd62316981fe0be5.jpg');
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: var(--night);
+
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
+  color: var(--french-gray);
+  font: 1rem bold;
+  padding: 1rem 0;
+  text-transform: uppercase;
+}
+.positioning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+
+  height: 500px;
+}
+#div-1 {
+  background: #b5c0d0;
+  width: 500px;
+  height: auto;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  overflow: hidden;
+}
+
+#div-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://i.pinimg.com/564x/10/ba/6d/10ba6d71c929d5528726195f85d94dde.jpg');
+
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  border: solid white;
+  border-width: 5px 5px 35px 5px;
+}
+#div-2 h1 {
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  font: 3rem bold;
+  color: white;
+}
+#div-2 p {
+  top: 200px;
+  left: 200px;
+  font: 'Kode Mono' red;
+}
+#div-3 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: -90px;
+  top: -250px;
+}
+
+#div-4 {
+  color: white;
+  font: 5rem bold;
+  position: absolute;
+  top: 350px;
+  left: 705px;
+  background-color: (var(--french-gray));
+}
+.static-iu-photocards {
+  display: flex;
+}
+.static-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  transform: translate(-50%, -250%);
+}
+.static-card-left {
+  display: flex;
+  transform: translate(160%, -150%);
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.card-container {
+  width: 200px;
+  height: 200px;
+  border: 1px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card-container img {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  overflow: hidden;
+}
+/*flaots*/
+
+.float-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  gap: 10px;
+}
+.blue {
+  width: 300px;
+  height: 300px;
+  background: #ac98a8;
+  padding: 20px;
+}
+
+.yellow-photo {
+  width: 40%;
+  height: 40%;
+  background-position: top right;
+  background: url('https://www.silhouette.pics/images/quotes/english/general/love-hearts-silhouette-free-vector-52650-132006.jpg');
+}
+
+.yellow {
+  width: 300px;
+  height: 300px;
+  background: rgb(226, 226, 148);
+  padding: 20px;
+}
+
+.navigation-links {
+  border-top: 1px solid rgb(167, 167, 167);
+}
+.navigation-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 25px 0 10px 0;
+  color: rgb(128, 125, 125);
+}
+
+.navigation-links li {
+  border: 2px solid rgb(128, 125, 125);
+  padding: 5px 25px;
+  border-radius: 8px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: #e4e4e4;
+}
+
+.box h2 {
+  color: rgb(78, 77, 77);
+}
+
+.box p {
+  color: rgb(128, 125, 125);
+}
+/*grids*/
+.grids {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 5px 10px;
+  grid-auto-rows: minmax(80px, auto);
+}
+
+.grid-container p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.right-div {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+/* .right-div img { */
+.right-image {
+  background-image: linear-gradient(
+      rgba(197, 195, 195, 0.5),
+      rgba(177, 174, 174, 0.5)
+    ),
+    url('./images/neocard.png');
+  width: 100%;
+  height: 60%;
+  background-position: 5% 90%;
+}
+
+.right-text {
+  margin: 5px;
+}
+
+.left-div {
+  grid-column: 3/5;
+  grid-row: 1;
+  padding: 6px;
+}
+
+.left-div p {
+  border-bottom: 1.8px solid rgb(136, 173, 221);
+  padding: 4px 0;
+}
+
+.left-div p:last-child {
+  border-bottom: none;
+}
+.bottom-div {
+  grid-column: 2/5;
+  grid-row: 2/3;
+  padding: 5px;
+}
+
+.highlight {
+  color: rgb(136, 173, 221);
+  font-weight: 500;
+}
